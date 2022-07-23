@@ -1,0 +1,101 @@
+.topcontainer {
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right, #1870d5, #45b6fe);
+
+}
+.top{
+    height: 100%;
+}
+.topbar ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logoname {
+    color: red;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.lefttopbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar ul li {
+    display: inline-block;
+}
+
+.right-topbar {
+    height:100%;
+    width: 350px;
+    display: flex;
+   
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.right-topbar li {
+   
+    color: white;
+    /* border-right: 2px solid white; */
+    
+    margin-left: 30px;
+}
+
+/* .borderline {
+    width: 2px;
+    border: 2px solid white;
+    background-color: white;
+} */
+
+.bottombar ul {
+    width: 100%;
+    list-style: none;
+       
+}
+
+.bottombar ul li {
+    
+    height: 5px;
+    color: blue;
+    display: inline-block;
+    margin-left: 70px;
+    font-weight: bold;
+
+    
+}
+.bottombar{
+    width: 100vw;
+    position: sticky;
+    top:70px;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+ .border{
+    width: 2px;
+    height: 30px;
+    background: rgb(253, 253, 253);
+    /* border: 3px solid white; */
+
+}
+.arrowicon{
+    margin-left: 40px;
+}
